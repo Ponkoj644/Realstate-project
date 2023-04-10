@@ -43,7 +43,7 @@ const Value = () => {
               const [className, setClassName] = useState(null);
               return (
                 <AccordionItem
-                  className={`accordionItem $(className)`}
+                  className={`accordionItem ${className}`}
                   key={i}
                   uuid={i}
                 >
